@@ -23,7 +23,7 @@ List Group Members
 -------------
 python copscli.py listGroupMembers --help
 python copscli.py listGroupMembers
-python copscli.py listGroupMembers --groupname aws_838069673214_speAdmin
+python copscli.py listGroupMembers --groupname <role_name>
 
 List Users
 ----------
@@ -36,17 +36,17 @@ List Apps
 python copscli.py listApps --help
 python copscli.py listApps
 python copscli.py listApps --prefix AWS
-python copscli.py listApps --prefix Cloud --suffix speAdmin
+python copscli.py listApps --prefix Cloud --suffix <rolename>
 
 List User Groups
 -----------------
 python copscli.py listUserGroups --help
 python copscli.py listUserGroups --login
-python copscli.py listUserGroups --login Notonesh_Bhattacharya@spe.sony.com
+python copscli.py listUserGroups --login <email>
 
 AssignUserGroup
 ---------------
 python copscli.py assignUserToGroup --help
-python copscli.py assignUserToGroup --login Notonesh_Bhattacharya@spe.sony.com --groupname osgOktaOrgAdmin
+python copscli.py assignUserToGroup --login <email> --groupname <groupname>
 
-python copscli.py assignUserToGroup --login Notonesh_Bhattacharya@spe.sony.com --groupname tfe_spe_tv_sptb2b_prd_plan
+python copscli.py assignUserToGroup --login <email> --groupname <groupname>
