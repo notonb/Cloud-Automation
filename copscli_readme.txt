@@ -1,7 +1,7 @@
 How to setup?
 -------------
 pip install click
-copy okta_common.py from https://ghe.spehosting.com/Core/core-infra-brownfield-vm/blob/OKTA_LIB/layers/okta_common/python/lib/python3.7/site-packages/okta_common.py 
+copy okta_common.py from /python/lib/python3.7/site-packages/okta_common.py 
     to site_packages folder
 
 How to use copscli?
